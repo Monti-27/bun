@@ -22,4 +22,4 @@ if (checkedOutCommit == expectedCommit) {
   await Bun.$`git pull`;
   // it is OK that this leaves you with a detached HEAD
   await Bun.$`git checkout ${expectedCommit}`;
-}
+};
